@@ -128,7 +128,7 @@ class PositionalEncoding(nn.Module):
     """
     def __init__(self,
                  size: int = 0,
-                 max_len: int = 5000):
+                 max_len: int = 6000):
         """
         Positional Encoding with maximum length max_len
         :param size:
